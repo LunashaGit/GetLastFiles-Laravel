@@ -1,0 +1,28 @@
+{
+    "name": "sha/getlastfiles",
+    "description": "Get all new files in a specific path, just for see or select them into delete",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sha\\GetLastFiles\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sha\\GetLastFiles\\GetLastFilesServiceProvider"
+            ]
+        },
+        "aliases": {
+            "GetLastFiles": "Sha\\GetLastFiles\\Facades\\GetLastFiles"
+        }
+    },
+    "authors": [
+        {
+            "name": "Luna Muylkens",
+            "email": "93606228+LunashaGit@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
